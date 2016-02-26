@@ -1,0 +1,92 @@
+.beijing{
+    width: 1349px;
+    height: 800px;
+    background-image: url('../images/002.jpg');
+    background-size: cover;
+    position: relative;
+}
+#kaiguan{
+    position: absolute;
+    width: 165px;
+    height: 95px;
+    left: 110px;
+    top: 80px;
+
+    font-size: 3em;
+    text-align: center;
+    line-height: 80px;
+    box-shadow: 0 0 10px #954B2A;
+    /*border-radius:80%;*/
+    background-image: url("../images/start.png");
+    background-size: cover;
+}
+#heiqi{
+    width: 200px;
+    height: 80px;
+    font-family:'"Segoe Print"';
+    background: black;
+    position: absolute;
+    font-size: 4em;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+    left: 38%;
+    top: 30%;
+    display: none;
+    border-radius: 45%;
+}
+#zailai{
+    width: 240px;
+    height: 110px;
+    font-family:'"Segoe Print"';
+    background: #376940;
+    position: absolute;
+    font-size: 5em;
+    color: white;
+    line-height: 110px;
+    text-align: center;
+    border-radius:20%;
+    left: 36%;
+    top: 40%;
+    display: none;
+    -webkit-animation-duration:1s;
+    -webkit-animation-timing-function:ease;
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-name:zoomIn1;
+}
+@-webkit-keyframes zoomIn1{
+    0%{transform:scale3d(.3,.3,.3);opacity:0; }
+    to{ opacity: 1; }
+}
+#baiqi{
+    width: 200px;
+    height: 80px;
+    font-family:'"Segoe Print"';
+    background:white;
+    position: absolute;
+    font-size: 4em;
+    color: black;
+    line-height: 80px;
+    text-align: center;
+    left: 38%;
+    top: 30%;
+    border-radius: 45%;
+    display: none;
+}
+#box{
+    width: 600px;
+    height: 600px;
+    box-shadow: 0 0 2px black;
+    margin: 50px  300px ;
+    /*background-color: #E0881B;*/
+    /*background-color: #F0B47E;*/
+    position: absolute;
+    background-image: url('../images/hua.jpg');
+    background-size: cover;
+}
+.qizi{
+    margin: 0 1px 1px 0;
+    float: left;
+    border-radius: 50%;
+
+}
